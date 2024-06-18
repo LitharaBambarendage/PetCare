@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".NewAppointment">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="360dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/custom_button1"
+        android:backgroundTint="@color/appointlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnback3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/background"
+        android:src="@drawable/backicon"
+        app:tint="@color/fontcolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/backicon" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/itim"
+        android:text="NEW APPOINTMENT"
+        android:textColor="@color/fontcolor"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appoint2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="259dp"
+        android:layout_height="302dp"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtName2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:hint="@string/hntpetname"
+            android:paddingLeft="50dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtCondition"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:hint="@string/hntcondition"
+            android:inputType="text"
+            android:paddingLeft="50dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:hint="dd/mm/yy"
+            android:inputType="date"
+            android:paddingLeft="50dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        app:srcCompat="@drawable/dateicon" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33"
+        app:srcCompat="@drawable/searchicon" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nameicon" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="252dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/custom_button2"
+        android:backgroundTint="#E6B6FD"
+        android:fontFamily="@font/itim"
+        android:text="Find Care"
+        android:textAllCaps="false"
+        android:textColor="#8F64CA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="307dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        app:tint="#FEFEFE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@drawable/custom_button1" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="282dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/doctor2" />
+
+    <Button
+        android:id="@+id/btnbook"
+        android:layout_width="266dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/custom_button2"
+        android:fontFamily="@font/itim"
+        android:text="Book Appointment"
+        android:textAllCaps="false"
+        android:textColor="@color/fontcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout7" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:background="@drawable/custom_button3"
+            android:fontFamily="@font/itim"
+            android:text="10.30am"
+            android:textAllCaps="false"
+            android:textColor="@color/fontcolor"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button3"
+            android:fontFamily="@font/itim"
+            android:text="11.00am"
+            android:textAllCaps="false"
+            android:textColor="@color/fontcolor"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button3"
+            android:fontFamily="@font/itim"
+            android:text="12.00pm"
+            android:textAllCaps="false"
+            android:textColor="@color/fontcolor"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:background="@drawable/custom_button3"
+            android:fontFamily="@font/itim"
+            android:text="3.00pm"
+            android:textAllCaps="false"
+            android:textColor="@color/fontcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

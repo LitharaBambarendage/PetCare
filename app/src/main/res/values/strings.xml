@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Test2</string>
+    <string name="hntpetname">Pet\'s name</string>
+    <string name="hntownername">Owners\'s name</string>
+    <string name="hntusername">Username</string>
+    <string name="hntcontact">Contact (eg: 0712345678)</string>
+    <string name="hntpassword">Password</string>
+    <string name="hntconfpass">Confirm Password</string>
+    <string name="hntgender">Gender (eg: Male)</string>
+    <string name="hntspecies">Species (eg: Dog)</string>
+    <string name="hntcondition">Condition (eg: Vaccination)</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">LOG IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="donebtn">Done</string>
+    <string name="btnappointment">Appointment</string>
+    <string name="btnpetshop">Pet Shop</string>
+    <string name="btndaycare">Day Care</string>
+    <string name="btnsalon">Pet salon and Spa</string>
+    <string name="btnhome">Home</string>
+    <string name="btnnotification">Notification</string>
+    <string name="btntips">Timps</string>
+    <string name="btnprofile">Profile</string>
+    <string name="petprofile">PET PROFILE</string>
+
+    <style name="roundimageview" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="color">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="250dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:hint="@string/hntusername"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textColorHint="@color/hintcolor"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:hint="@string/hntpassword"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="70dp"
+            android:fontFamily="@font/itim"
+            android:text="Forgot Password?"
+            android:textColor="@color/fontcolor"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="103dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="153dp"
+        android:background="@drawable/custom_button2"
+        android:backgroundTint="@color/btncolor"
+        android:fontFamily="@font/itim"
+        android:shadowColor="#FDFDFD"
+        android:text="@string/donebtn"
+        android:textAllCaps="false"
+        android:textColor="@color/fontcolor"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/itim"
+        android:text="@string/login"
+        android:textSize="25sp"
+        android:textColor="@color/fontcolor"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btncreateacc"
+        android:layout_width="336dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_button1"
+        android:backgroundTint="#F8E2FC"
+        android:fontFamily="@font/itim"
+        android:text="No account? Create one"
+        android:textAllCaps="false"
+        android:textColor="@color/fontcolor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

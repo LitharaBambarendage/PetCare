@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FFF9E3FD</color> <!--Primary color-->
+    <color name="btnfontcolor">#F2EBFF</color>
+    <color name="btncolor">#FFCAA0F5</color> <!--Secondary color-->
+    <color name="fontcolor">#FF643F97</color> <!--Accent color-->
+    <color name="fontcolor2">#BE5DCF</color>
+    <color name="framecolor">#FFF9D6FF</color>
+    <color name="hintcolor">#FF9B8CB6</color>
+    <color name="btncolor2">#EBBEF3</color>
+    <color name="producttag">#5E5B5B</color>
+    <color name="appointback">#ECD2FA</color>
+    <color name="appointlayout">#E7DAFF</color>
+    <color name="profilelayout">#F5CDFB</color>
+</resources>

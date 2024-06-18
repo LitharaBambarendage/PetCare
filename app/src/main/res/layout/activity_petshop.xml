@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:paddingTop="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:outlineSpotShadowColor="#D62B2B"
+        tools:context=".Petshop">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="370dp"
+            android:layout_height="1040dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="30dp"
+            android:tint="#EFD3FD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/custom_button3" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="153dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button2"
+            android:backgroundTint="#C68D62CC"
+            android:fontFamily="@font/itim"
+            android:text="Shop more >"
+            android:textAllCaps="false"
+            android:textColor="@color/btnfontcolor"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnprdct6" />
+
+        <Button
+            android:id="@+id/btnprdct1"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/custom_button1"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnprdct2"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="448dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/custom_button1"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnprdct3"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/custom_button1"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnprdct2" />
+
+        <Button
+            android:id="@+id/btnprdct4"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/custom_button1"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toStartOf="@+id/btnprdct3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnprdct1" />
+
+        <Button
+            android:id="@+id/btnprdct5"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/custom_button1"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnprdct3" />
+
+        <Button
+            android:id="@+id/btnprdct6"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button1"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnprdct4" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button3"
+                android:backgroundTint="#CFBEEF"
+                android:fontFamily="@font/itim"
+                android:paddingLeft="5dp"
+                android:paddingTop="0dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="0dp"
+                android:text="🐶Dog"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button3"
+                android:fontFamily="@font/itim"
+                android:paddingLeft="5dp"
+                android:paddingTop="0dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="0dp"
+                android:text="😺Cat"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button3"
+                android:fontFamily="@font/itim"
+                android:paddingLeft="5dp"
+                android:paddingTop="0dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="0dp"
+                android:text="🐠Fish"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button3"
+                android:fontFamily="@font/itim"
+                android:paddingLeft="5dp"
+                android:paddingTop="0dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="0dp"
+                android:text="🐣Bird"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/custom_button1"
+            android:backgroundTint="#E6E2E6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnback2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/background"
+            android:src="@drawable/backicon"
+            android:tint="@color/fontcolor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/backicon" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="190dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="100dp"
+            android:fontFamily="@font/itim"
+            android:text="Best product for your pet"
+            android:textColor="#50317C"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="200dp"
+            android:fontFamily="@font/itim"
+            android:text="PET SHOP"
+            android:textColor="@color/fontcolor"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="180dp"
+            android:elevation="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dog5" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="190dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Special Offers"
+            android:textColor="@color/fontcolor"
+            android:textSize="22sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="145dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="38dp"
+            android:background="@drawable/custom_button3"
+            android:backgroundTint="#DFA1EA"
+            android:fontFamily="@font/itim"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="Shop now >"
+            android:textAllCaps="false"
+            android:textColor="@color/fontcolor"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Pedegree"
+            android:textColor="@color/producttag"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnprdct1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct1" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="135dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Adult food"
+            android:textColor="@color/producttag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct1" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="155dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="$12.59"
+            android:textColor="@color/producttag"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct1" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="110dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Friskies"
+            android:textColor="@color/producttag"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct2" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="155dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="$15.59"
+            android:textColor="@color/producttag"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct2" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="135dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Cat pre-cooked food"
+            android:textColor="@color/producttag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct2" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="110dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Pedegree"
+            android:textColor="@color/producttag"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct4" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="135dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Adult food"
+            android:textColor="@color/producttag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct4" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="155dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="$10.59"
+            android:textColor="@color/producttag"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct4" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="118dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Whiskas"
+            android:textColor="@color/producttag"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct3" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="155dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="$20.59"
+            android:textColor="@color/producttag"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct3" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="140dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Cat food"
+            android:textColor="@color/producttag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct3" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="332dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Puppy food"
+            android:textColor="@color/producttag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct4" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="860dp"
+            android:elevation="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pedigree3" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="310dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Pedegree"
+            android:textColor="@color/producttag"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct4" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="350dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="$5.99"
+            android:textColor="@color/producttag"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct4" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="332dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Cat food"
+            android:textColor="@color/producttag"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct3" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="308dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="Friskies"
+            android:textColor="@color/producttag"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct3" />
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="352dp"
+            android:elevation="8dp"
+            android:fontFamily="@font/itim"
+            android:text="$19.99"
+            android:textColor="@color/producttag"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnprdct3" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="440dp"
+            android:elevation="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/friskies" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="670dp"
+            android:elevation="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/whiskas2" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="670dp"
+            android:elevation="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/whiskas" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="860dp"
+            android:elevation="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pedigree2" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="465dp"
+            android:elevation="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pedigree" />
+
+        <ImageView
+            android:layout_width="346dp"
+            android:layout_height="136dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/custom_button1"
+            android:backgroundTint="#97CCBE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="100dp"
+            app:layout_constraintStart_toEndOf="@+id/textView20"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cart" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
